@@ -1,9 +1,13 @@
-A first google apps script to get CoinMarketCap API data into Google Sheets.
-It is a very simple and straightforward script to start with.
+First google apps scripts to get CoinMarketCap API data into Google Sheets.
+They are very simple and straightforward scripts to start with.
+
+Use case are following :
+- coinmarketcap_latest.js will fetch the full (5000) coinmarketcap cryptocurrencies list with details (price,...)
+- getinfo4mytokens.js will get you price only for the cryptocurrencies you want
 
 To get it working :
 1. get a coinmarketcap api key and put it in the B1 cell of your sheet.
-2. create a new google sheet, select Extensions > Apps Script. Delete existing code & replace with this one.
+2. create a new google sheet, select Extensions > Apps Script. Delete existing code & replace with this ones.
 3. File -> Save.
 4. You'll need to authorize the script to access your google account ( a pop up should appear ).
 
