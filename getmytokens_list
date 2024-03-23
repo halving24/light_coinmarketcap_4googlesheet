@@ -1,0 +1,9 @@
+function get_mycslist() {
+  var mysheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+  SpreadsheetApp.setActiveSheet(mysheet).getSheetName();
+  var lastRow = mysheet.getLastRow()
+  // grab your token list from 1st cell position : line 8, column 2 <== modify according to your needs
+  var myTL = mysheet.getRange(8,2,lastRow-7,1).getDisplayValues()
+  Logger.log(myTL)
+  return myTL
+}
