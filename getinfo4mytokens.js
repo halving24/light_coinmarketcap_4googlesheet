@@ -7,7 +7,7 @@ function getinfo4mytokens () {
   // - line 4 : that's where the function start to search your crypto tokens, and get price for it
   
   var mysheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
-  var API_KEY = mysheet.getRange('B1').getDisplayValue().trim(); // put your coinmarketcap API key in the B1 cell
+  var API_KEY = mysheet.getRange('B1').getDisplayValue().trim();
   const TOKENSCOL = 2, PRICECOL = 4, ROWSTART = 4 // your token list start is in col 2, starting row 4 + you want to update price in col 4
   const LASTROW = mysheet.getLastRow()
 
