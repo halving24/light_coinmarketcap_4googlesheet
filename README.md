@@ -1,7 +1,7 @@
 First google apps scripts to get CoinMarketCap API data into Google Sheets.
 They are very simple and straightforward scripts to start with.
 
-Use case are following :
+Use cases are following :
 - coinmarketcap_latest.js will fetch the full (5000) coinmarketcap cryptocurrencies list (name, symbol, price)
 - getinfo4mytokens.js will get you price only for the cryptocurrencies you want
 
