@@ -6,7 +6,7 @@ Use cases are following :
 - getinfo4mytokens.js will get you price only for the cryptocurrencies you want
 
 To get it working :
-1. get a coinmarketcap api key and put it in the B1 cell of your sheet.
+1. get a coinmarketcap account + an api key and then put your key in the B1 cell of your sheet.
 2. create a new google sheet, select Extensions > Apps Script. Delete existing code & replace with this ones.
 3. File -> Save.
 4. You'll need to authorize the script to access your google account ( a pop up should appear ).
