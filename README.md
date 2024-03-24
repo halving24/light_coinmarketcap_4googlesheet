@@ -3,7 +3,7 @@ They are very simple and straightforward scripts to start with.
 
 Use cases are following :
 - coinmarketcap_latest.js will fetch the full (5000) coinmarketcap cryptocurrencies list (name, symbol, price)
-- getinfo4mytokens.js will get you price only for the cryptocurrencies you want
+- getinfo4mytokens.js will retrieve only the prices of the tokens you want 
 
 To get it working :
 1. get a coinmarketcap account + an api key and then put your key in the B1 cell of your sheet.
