@@ -4,7 +4,7 @@ function getinfo4mytokens () {
   // - line 1 : you put you coinmarket API key in cell B1
   // - line 2 : function will update cell B2 with last run date
   // - line 3 : titles like : name, symbol, price, usd total,...that you have choosen
-  // - line 4 : that's where the function start to search your crypto tokens, and get price for it
+  // - line 4 : that's where the function starts to search your crypto tokens, and get price for it
   
   var mysheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
   var API_KEY = mysheet.getRange('B1').getDisplayValue().trim();
